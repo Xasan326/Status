@@ -10,8 +10,8 @@ api_hash = 'f4c84f85a1a62402f9b290b1c4cd2ff2'
 phone = '+998339388185'
 
 # Пути к вашим фотографиям профиля
-online_photo = 'C:/Users/Xasan/Desktop/TelegramProfileBot-main/status/1.jpg'
-offline_photo = 'C:/Users/Xasan/Desktop/TelegramProfileBot-main/status/0.jpg'
+online_photo = '/data/data/com.termux/files/home/Status/status/1.jpg'
+offline_photo = '/data/data/com.termux/files/home/Status/status/0.jpg'
 
 # Создаем клиент и подключаемся
 client = TelegramClient('session_name', api_id, api_hash)
